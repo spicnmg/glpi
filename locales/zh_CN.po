@@ -5414,11 +5414,11 @@ msgstr "变更已解决"
 #: src/ChangeTask.php:43
 msgid "Change task"
 msgid_plural "Change tasks"
-msgstr[0] "改变任务"
+msgstr[0] "变更任务"
 
 #: src/CommonITILTask.php:1666
 msgid "Change tasks to do"
-msgstr ""
+msgstr "变更任务去做"
 
 #: src/ChangeTemplate.php:50 src/Entity.php:2793
 msgid "Change template"
@@ -5515,7 +5515,7 @@ msgstr "证书核验"
 
 #: src/Console/Diagnostic/CheckHtmlEncodingCommand.php:103
 msgid "Check for badly HTML encoded content in database."
-msgstr ""
+msgstr "检查数据库中是否有编码错误的HTML内容。"
 
 #: src/CronTask.php:2078
 msgid "Check for new updates"
@@ -5524,7 +5524,7 @@ msgstr "检查更新"
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:88
 msgid ""
 "Check for schema differences between current database and installation file."
-msgstr ""
+msgstr "检查当前数据库与安装文件之间的模式差异。"
 
 #: src/Config.php:2166
 msgid "Check if a new version is available"
@@ -5537,11 +5537,11 @@ msgstr "检查目录的权限:%s"
 
 #: src/Console/System/CheckRequirementsCommand.php:53
 msgid "Check system requirements"
-msgstr ""
+msgstr "检查系统需求"
 
 #: src/Console/System/CheckStatusCommand.php:54
 msgid "Check system status"
-msgstr ""
+msgstr "检查系统状态"
 
 #: src/System/Requirement/ProtectedWebAccess.php:119
 msgid "Check the .htaccess file and the web server configuration."
@@ -5639,7 +5639,7 @@ msgstr ""
 
 #: index.php:120
 msgid "Checking write permissions for session files"
-msgstr "测试session文件的写入权限"
+msgstr "检查session文件的写入权限"
 
 #: templates/components/itilobject/fields_panel.html.twig
 #: src/NotificationTargetChange.php:278 src/Change.php:553
@@ -5860,7 +5860,7 @@ msgstr "关闭 (Esc)"
 
 #: templates/components/itilobject/fields_panel.html.twig
 msgid "Close date"
-msgstr "结案日期"
+msgstr "关闭日期"
 
 #: templates/components/search/controls.html.twig
 msgid "Close modal"
@@ -5877,7 +5877,7 @@ msgstr "关闭工单操作已禁用。"
 #: src/Holiday.php:48 src/Calendar_Holiday.php:203
 msgid "Close time"
 msgid_plural "Close times"
-msgstr[0] "结案时间"
+msgstr[0] "关闭时间"
 
 #: install/migrations/update_0.84.x_to_0.85.0.php:2263 src/Stat.php:560
 #: src/Stat/Data/Sglobal/StatDataTicketNumber.php:67
@@ -5900,7 +5900,7 @@ msgstr "关闭 %1$s (%2$s)"
 #: src/CommonITILObject.php:6401
 #, php-format
 msgid "Closed on %s"
-msgstr "结案于 %s"
+msgstr "关闭于 %s"
 
 #: src/Dashboard/Provider.php:403 src/Dashboard/Grid.php:1215
 msgid "Closed tickets"
@@ -6411,7 +6411,7 @@ msgstr "合同签订的通知时间周期"
 #: src/NotificationTargetContract.php:143
 #: src/NotificationTargetContract.php:185
 msgid "Contract expired since the"
-msgstr "合同已到期 自"
+msgstr "合同已到期，自"
 
 #: src/Entity.php:1287 src/Entity.php:2991 src/Entity.php:3020
 #: src/Entity.php:3781
@@ -6424,7 +6424,7 @@ msgstr "合同期内终止"
 
 #: src/NotificationTargetContract.php:152
 msgid "Contract reached the end of a period since the"
-msgstr "合同已结束一段时间 自"
+msgstr "合同已结束，自"
 
 #: templates/pages/management/contract.html.twig
 msgid "Contract renewal period"
@@ -6437,12 +6437,12 @@ msgstr[0] "合约类型"
 
 #: src/NotificationTargetContract.php:157
 msgid "Contract with notice for the current period since the"
-msgstr "合同通知 自"
+msgstr "合同通知，"
 
 #: src/NotificationTargetContract.php:147
 #: src/NotificationTargetContract.php:186
 msgid "Contract with notice since the"
-msgstr "合同已提醒 自"
+msgstr "合同已提醒，"
 
 #: src/NotificationTargetContract.php:61
 msgid "Contracts alarm"
@@ -6450,23 +6450,23 @@ msgstr "合同警报"
 
 #: src/Contract.php:995
 msgid "Contracts expired in the last 30 days"
-msgstr "过去30天到期的合同"
+msgstr "超30天到期的合同"
 
 #: src/Contract.php:1015
 msgid "Contracts expiring in less than 30 days"
-msgstr "小于30天就到期的合同"
+msgstr "小于30天到期的合同"
 
 #: src/Contract.php:1005
 msgid "Contracts expiring in less than 7 days"
-msgstr "小于7天就到期的合同"
+msgstr "小于7天到期的合同"
 
 #: src/Contract.php:1033
 msgid "Contracts where notice begins in less than 30 days"
-msgstr "通知（小于30天就到期的合同）"
+msgstr "通知（30天内到期的合同）"
 
 #: src/Contract.php:1025
 msgid "Contracts where notice begins in less than 7 days"
-msgstr "通知（小于7天就到期的合同）"
+msgstr "通知（7天内到期的合同）"
 
 #: templates/components/itilobject/fields_panel.html.twig
 #: src/NotificationTargetChange.php:275 src/Change.php:506 src/Change.php:523
@@ -12319,7 +12319,7 @@ msgstr[0] "项目操作系统"
 #: src/Infocom.php:551
 #, php-format
 msgid "Item reaching the end of warranty on %1$s: %2$s"
-msgstr "保修期即将结束的项目，在 %1$s: %2$s"
+msgstr "保修期即将到期的项目，在 %1$s: %2$s"
 
 #: src/RuleTicket.php:621
 msgid "Item state"
@@ -24014,7 +24014,7 @@ msgstr "使用中的版本"
 #: src/OperatingSystemVersion.php:44
 msgid "Version of the operating system"
 msgid_plural "Versions of the operating systems"
-msgstr[0] "操作系统的版本"
+msgstr[0] "操作系统版本"
 
 #: src/Config.php:1266
 msgid "Vertical (menu in sidebar)"
@@ -24290,7 +24290,7 @@ msgstr[0] "监督"
 #: src/NotificationTargetCommonITILObject.php:1819
 msgid "Watcher group"
 msgid_plural "Watcher groups"
-msgstr[0] "监督群组"
+msgstr[0] "监督组"
 
 #: src/NotificationTargetCommonITILObject.php:870
 msgid "Watcher group except manager users"
@@ -24298,7 +24298,7 @@ msgstr "除管理员外的监督组"
 
 #: src/NotificationTargetCommonITILObject.php:867
 msgid "Watcher group manager"
-msgstr "监督群组经理"
+msgstr "监督组经理"
 
 #: src/NotificationMailingSetting.php:228
 msgid "Way of sending emails"
@@ -24756,7 +24756,7 @@ msgstr "您可以继续添加需要转移的元素或者现在就转移"
 
 #: src/CommonDBTM.php:5691
 msgid "You can define an autofill template"
-msgstr "您可以定义自动填充模板"
+msgstr "您可以定义一个自动填充模板"
 
 #: templates/install/step8.html.twig
 msgid "You can delete or modify these accounts as well as the initial data."
@@ -24880,7 +24880,7 @@ msgstr "您无权连接"
 
 #: src/Ticket.php:5514
 msgid "You don't have right to see all tickets"
-msgstr "您无权访问所有案例"
+msgstr "您无权访问所有工单"
 
 #: front/migrationcleaner.php:54
 msgid "You don't need the \"migration cleaner\" tool anymore..."
@@ -24901,7 +24901,7 @@ msgstr "由于你已不能访问此项目，你已被重定向"
 #: front/ticket.form.php:127 front/commonitiltask.form.php:152
 msgid ""
 "You have been redirected because you no longer have access to this ticket"
-msgstr "您已被重定向，因为您已不能访问此工单"
+msgstr "您已被重定向，因为您已不具备访问此工单的权限"
 
 #: front/crontask.php:81
 msgid ""
@@ -24911,7 +24911,7 @@ msgstr "您拥有的自动操作的数量超过每分钟允许的运行量。请
 
 #: templates/layout/parts/saved_searches_list.html.twig
 msgid "You have not recorded any saved searches yet"
-msgstr "您尚未收藏任何已搜索条件"
+msgstr "您尚未收藏任何搜索条件"
 
 #: src/Toolbox.php:1185
 msgid "You have the latest available version"
@@ -24955,7 +24955,7 @@ msgstr "您必须至少启用一种通知模式。"
 
 #: src/SNMPCredential.php:217
 msgid "You must enter a username"
-msgstr "你需要输入用户名"
+msgstr "请输入用户名"
 
 #: src/Marketplace/View.php:907
 #, php-format
@@ -24997,19 +24997,19 @@ msgstr ""
 
 #: js/impact.js:2481
 msgid "You need to select at least 1 asset to make a group"
-msgstr ""
+msgstr "您需要至少选择1项资产才能创建组。"
 
 #: src/System/Requirement/SessionsSecurityConfiguration.php:66
 msgid ""
 "You should apply the following recommendations for configuring the web "
 "server."
-msgstr ""
+msgstr "请按照以下建议配置web服务器。"
 
 #: src/Console/Migration/UnsignedKeysCommand.php:260
 msgid ""
 "You should try to update these plugins to their latest version and run the "
 "command again."
-msgstr "您应该尝试将插件更新到最新版本，然后再次运行该命令。"
+msgstr "请您尝试将插件更新到最新版本，然后再次运行该命令。"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "You will find it on the GLPI-PROJECT.org site."
@@ -25048,7 +25048,7 @@ msgid ""
 "If the problem persists, contact the administrator"
 msgstr ""
 "邮件无法处理。\n"
-"如果问题持续，请联系管理员"
+"如果问题还存在，请联系管理员"
 
 #: src/Ticket.php:4796 src/Ticket.php:4969
 msgid "Your observed tickets"
@@ -25056,7 +25056,7 @@ msgstr "您关注的工单"
 
 #: front/updatepassword.php:103
 msgid "Your password has been successfully updated."
-msgstr "你的密码已被成功更新。"
+msgstr "你的密码已被更新成功。"
 
 #: src/User.php:6450
 msgid "Your password has expired."
@@ -25064,7 +25064,7 @@ msgstr ""
 
 #: src/User.php:5461
 msgid "Your password has expired. You must change it to be able to login."
-msgstr "您的口令已过期。您必须修改它才能登录。"
+msgstr "您的口令已过期。您必须修改后才能登录。"
 
 #: templates/password_form.html.twig src/User.php:5578
 msgid ""
@@ -25090,7 +25090,7 @@ msgstr "您的问题正在处理"
 
 #: src/Session.php:1617
 msgid "Your session has expired."
-msgstr ""
+msgstr "您的会话已过期"
 
 #: front/tracking.injector.php:94
 msgid "Your ticket has been registered, its treatment is in progress."
@@ -25110,7 +25110,7 @@ msgstr "您进行中的工单"
 
 #: src/Ticket.php:4732 src/Ticket.php:4953
 msgid "Your tickets to close"
-msgstr "您待结案的工单"
+msgstr "您待关闭的工单"
 
 #: src/Ticket.php:4889
 msgid "Your tickets to validate"
@@ -25357,7 +25357,7 @@ msgstr "项目没有关联到项目"
 
 #: src/Api/APIXmlrpc.php:160
 msgid "itemtype not found or not an instance of CommonDBTM"
-msgstr "项目类型 找不到 或 不是一个CommonDBTM的实例"
+msgstr "项目类型找不到或不是一个CommonDBTM的实例"
 
 #: js/common.js:1169
 msgid "just now"
@@ -25572,7 +25572,7 @@ msgstr "机架"
 
 #: src/RuleCriteria.php:574
 msgid "regular expression does not match"
-msgstr "正在表达式不匹配"
+msgstr "正则表达式不匹配"
 
 #: src/RuleCriteria.php:573
 msgid "regular expression matches"
@@ -25580,7 +25580,7 @@ msgstr "正则表达式匹配"
 
 #: src/Api/APIRest.php:419
 msgid "resource not found or not an instance of CommonDBTM"
-msgstr "资源 未找到 或 不是一个CommonDBTM的实例"
+msgstr "资源未找到或者不是一个CommonDBTM的实例"
 
 #: src/KnowbaseItem_Revision.php:194
 msgid "restore"
@@ -25656,7 +25656,7 @@ msgstr "注册自"
 
 #: src/NetworkPortInstantiation.php:367
 msgid "this port"
-msgstr "这个端口"
+msgstr "此端口"
 
 #: src/AuthLDAP.php:4410 src/NetworkPort.php:1431
 msgid "to"
@@ -25728,7 +25728,7 @@ msgstr "昨天"
 
 #: src/NetworkPortMigration.php:233
 msgid "you may have to add a network"
-msgstr "您得添加网络"
+msgstr "您须添加网络"
 
 #: templates/layout/parts/profile_selector.html.twig
 msgid "⌥ (option) + ⌘ (command) + E"
