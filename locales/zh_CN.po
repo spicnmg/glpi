@@ -3996,7 +3996,7 @@ msgstr "分配给"
 #: src/CommonITILObject.php:4558 src/RuleTicket.php:652 src/RuleTicket.php:848
 #: src/NotificationTargetCommonITILObject.php:1813
 msgid "Assigned to a supplier"
-msgstr "指派供应商"
+msgstr "供应商指派"
 
 #: src/NotificationTargetCommonITILObject.php:1820
 msgid "Assigned to groups"
@@ -4029,7 +4029,7 @@ msgstr "工单协作"
 #: src/Console/Migration/DatabasesPluginToCoreCommand.php:162
 #: src/Console/Migration/AppliancesPluginToCoreCommand.php:303
 msgid "Associable items to a ticket"
-msgstr "工单可关联的项目"
+msgstr "关联此项到工单"
 
 #: src/Profile.php:1213 src/Profile.php:1594 src/Profile.php:3265
 msgid "Associable items to tickets, changes and problems"
@@ -4039,7 +4039,7 @@ msgstr ""
 #: src/RuleDictionnarySoftware.php:124 src/Software.php:484
 #: src/DatabaseInstance.php:235
 msgid "Associable to a ticket"
-msgstr "可关联到工单"
+msgstr "关联到工单"
 
 #: src/IPNetwork_Vlan.php:143 src/CommonDBConnexity.php:524
 #: src/CommonDBConnexity.php:698 src/NetworkPort_Vlan.php:147
@@ -4452,11 +4452,11 @@ msgstr "自动解决预定在%s"
 
 #: src/Ticket.php:5756
 msgid "Automatic tickets closing"
-msgstr "工单自动结案"
+msgstr "工单自动关闭"
 
 #: src/RuleRight.php:227
 msgid "Automatic user assignment"
-msgstr "自动用户分配"
+msgstr "自动分配用户"
 
 #: src/User.php:4829
 msgid "Automatically add a user of an external source"
@@ -5055,7 +5055,7 @@ msgstr ""
 
 #: src/LevelAgreement.php:443 src/SLM.php:202
 msgid "Calendar of the ticket"
-msgstr "工单的日历"
+msgstr "工单日历"
 
 #: src/NotificationMailingSetting.php:325
 msgctxt "oauth"
